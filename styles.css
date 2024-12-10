@@ -1,0 +1,81 @@
+/* General Styles */
+body {
+  background-color: #fdf4da;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 400px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #bf2e32;
+  font-size: 24px;
+}
+
+p {
+  color: #333;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 80%;
+  margin-top: 20px;
+  font-size: 16px;
+  border: 2px solid #bf2e32;
+  border-radius: 5px;
+  outline: none;
+}
+
+input[type="text"]:focus {
+  border-color: #333;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #bf2e32;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #a9262b;
+}
+
+.hint {
+  margin-top: 10px;
+  color: #333;
+  font-size: 14px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.congrats {
+  font-size: 18px;
+  color: #333;
+}
+
+.gift-location {
+  background-color: #bf2e32;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.gift-image {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+}
