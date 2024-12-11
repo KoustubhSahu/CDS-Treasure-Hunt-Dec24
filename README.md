@@ -1,5 +1,5 @@
 # Ticket to Treasure Hunt
-
+[Live Webiste](https://koustubhsahu.github.io/CDS-Treasure-Hunt-Dec24/index.html)
 ## Overview
 
 **Ticket to Treasure Hunt** is an interactive holiday-themed treasure hunt web app. This app provides users with a series of riddles that they must solve to eventually discover the location of a hidden gift. After solving the clues, users will be prompted to enter a 3-word password. Once the correct password is entered, they will be redirected to a "Congratulations" page revealing the gift's location.
