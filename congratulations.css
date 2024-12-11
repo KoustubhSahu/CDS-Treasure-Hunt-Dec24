@@ -12,6 +12,8 @@ body {
   align-items: center;
 
   overflow-x: hidden;
+
+  font-family: "Sanchez", serif;
 }
 
 .font-satisfy {
@@ -75,6 +77,7 @@ p {
   width: 100%;
   height: auto;
   border-radius: 0.5rem;
+  box-shadow: 2px 2px 7px 1px #777;
 }
 
 footer {
