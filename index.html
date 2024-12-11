@@ -1,21 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Treasure Hunt - Enter Password</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <div class="container">
-    <h1>Enter Your 3-Word Password</h1>
-    <p>Hint: The password consists of three words.</p>
-    <input type="text" id="password" placeholder="Enter Password">
-    <button id="submitBtn">Submit</button>
-    <p class="hint" id="hintBtn">Need a hint?</p>
-    <p id="hintText" style="display:none;">Write the first words from cards 1, 2, and 3.</p>
-  </div>
-  
-  <script src="scripts.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Treasure Hunt - Enter Password</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 class="header font-satisfy ">
+      Gift Hunt
+      <img
+        class="chest-logo"
+        src="chest-removebg-preview.png"
+        alt="treasure-chest"
+      />
+    </h1>
+
+    <div class="dashed">
+      <div class="container">
+        <h2 class="input-label">Enter Your 3-Word Password</h2>
+        <input type="text" id="password" placeholder="Enter Password" />
+        <button id="submitBtn">Submit</button>
+        <p class="hint" id="hintBtn">Need a hint?</p>
+        <p id="hintText" class="hidden">
+          Write the first words from cards 1, 2, and 3.
+        </p>
+      </div>
+    </div>
+      
+    
+    <footer>Created by Koustubh Sahu</footer>
+    <script src="scripts.js"></script>
+
+  </body>
 </html>

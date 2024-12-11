@@ -11,10 +11,11 @@ function checkPassword() {
 }
 
 // Function to show the hint text
-function showHint() {
-  document.getElementById("hintText").style.display = "block";
+function toggleHint() {
+  var hintText = document.getElementById("hintText");
+  hintText.classList.toggle("hidden");  
 }
 
 // Adding event listener for the submit button and hint button
 document.getElementById("submitBtn").addEventListener("click", checkPassword);
-document.getElementById("hintBtn").addEventListener("click", showHint);
+document.getElementById("hintBtn").addEventListener("click", toggleHint);
